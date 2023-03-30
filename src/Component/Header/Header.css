@@ -13,7 +13,9 @@
     font-size: 1.8em;
     margin: 0 2%;
 }
-
+.navMenu {
+ width: 500px;
+}
   .navMenu a {
     color: #f6f4e6;
     text-decoration: none;
@@ -21,42 +23,43 @@
     text-transform: uppercase;
     font-weight: 500;
     display: inline-block;
-    width: 80px;
+    width: auto;
+    margin-right: 20px;
     transition: all 0.2s ease-in-out;
   }
   .navMenu .dot {
-    width: 6px;
-    height: 6px;
+    width: 9px;
+    height: 9px;
     background: #fddb3a;
     border-radius: 50%;
     opacity: 0;
     transform: translateX(30px);
     transition: all 0.2s ease-in-out;
   }
-  .navMenu a:nth-child(1):hover ~ .dot {
+  .navMenu a:hover {
     color: #fddb3a;
+     transition: all 0.2s ease-in-out;
+  }
+  .navMenu a:nth-child(1):hover ~ .dot {
     transform: translateX(30px);
     transition: all 0.2s ease-in-out;
     opacity: 1;
   }
   
   .navMenu a:nth-child(2):hover ~ .dot {
-    color: #fddb3a;
     transform: translateX(100px);
     transition: all 0.2s ease-in-out;
     opacity: 1;
   }
   
   .navMenu a:nth-child(3):hover ~ .dot {
-    color: #fddb3a;
-    transform: translateX(185px);
+    transform: translateX(200px);
     transition: all 0.2s ease-in-out;
     opacity: 1;
   }
   
   .navMenu a:nth-child(4):hover ~ .dot {
-    color: #fddb3a;
-    transform: translateX(265px);
+    transform: translateX(365px);
     transition: all 0.2s ease-in-out;
     opacity: 1;
   }

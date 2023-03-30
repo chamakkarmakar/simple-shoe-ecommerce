@@ -2,18 +2,16 @@ import React from 'react'
 import "./Header.css"
 const Header = () => {
     return (
-        <div>
             <div className='header'>
                 <h1>Shoe Commerce</h1>
-                <nav class="navMenu">
+                <nav className="navMenu">
                     <a href="/home">Home</a>
                     <a href="/order">Order</a>
                     <a href="/review">Order Review</a>
                     <a href="/inventory">Manage Inventory</a>
-                    <div class="dot"></div>
+                    <div className="dot"></div>
                 </nav>
             </div>
-        </div>
     )
 }
 

@@ -1,0 +1,32 @@
+.banner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.banner img {
+    box-shadow: -37px 31px 5px -8px #fad092f8;
+    border-radius: 25px;
+}
+.banner h2 {
+    color: #FF9900;
+    font-size: 3em;
+    line-height: 3px;
+}
+.banner p {
+    font-size: 1.2em;
+    line-height: 3px;
+}
+.banner button {
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.2em;
+    background-color: #FF9900;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.banner button:hover {
+    background-color: #f59d19;
+}
